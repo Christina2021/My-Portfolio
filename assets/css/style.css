@@ -1,5 +1,8 @@
 body {
     background-image: url(../images/background.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* All containers */
@@ -12,15 +15,14 @@ body {
 }
 
 /* All Footers */
-hr {
-    height: 0.1em;
-    background-color: aqua;
-    margin: 0;
-}
 .footerAll {
-    text-align: center;
     background-color: #112d4e;
     color: #f9f7f7;
+    justify-content: end;
+}
+.footerRow {
+    height: 0.1em;
+    background-color: aqua;
 }
 
 /* About Me Page */
