@@ -8,6 +8,14 @@ hr {
     margin: 0;
 }
 
+.contentBox {
+    background-color: #f9f7f7;
+}
+
+.contentBox h1 {
+    color: #112d4e;
+}
+
 .footerAll {
     text-align: center;
     background-color: #112d4e;
@@ -17,13 +25,6 @@ hr {
 }
 
 /* About Me Page */
-.aboutMe {
-    background-color: #f9f7f7;
-}
-
-.aboutMe h1 {
-    color: #112d4e;
-}
 
 .aboutMePic {
     width: 25%;
