@@ -6,8 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Christina</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f21b4b2424.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -36,12 +39,29 @@
                 <!-- Contact Me content in first column -->
                 <div class="col-lg-8 col-md-9 col-sm-12 contentBox">
                     <div class="row">
-                        <div class="col m-3">
+                        <div class="col m-3 mb-0">
                             <h1>Contact Me</h1>
+                            <p>Please leave me a message if you would like to reach out to me.  I look forward to hearing from you! <i class="far fa-smile"></i></p>
                         </div>
                     </div>
                     <div class="row">
-                    
+                        <div class="col mt-0 mx-3 mb-3">
+                            <form>
+                                <div class="form-group">
+                                  <label for="contactName">Name:</label>
+                                  <input class="form-control" type="text" id="contactName" placeholder="First and Last Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="contactEmail">Email:</label>
+                                  <input class="form-control" type="email"  id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                  <label for="contactMessage">Message:</label>
+                                  <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                              </form>
+                        </div>
                     </div>
                 </div>
                 <!-- Confirm right side stays empty -->
@@ -51,7 +71,7 @@
 
         <!-- footer -->
         <hr class="mt-5">
-        <footer class="footerAll">
+        <footer class="my-0 mx-auto p-3 footerAll">
             <p class="m-0">&copy; Copyright</p>
         </footer>
 

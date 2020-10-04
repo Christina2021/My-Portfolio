@@ -2,12 +2,7 @@ body {
     background-image: url(../images/background.jpg);
 }
 
-hr {
-    height: 0.1em;
-    background-color: aqua;
-    margin: 0;
-}
-
+/* All containers */
 .contentBox {
     background-color: #f9f7f7;
 }
@@ -16,16 +11,19 @@ hr {
     color: #112d4e;
 }
 
+/* All Footers */
+hr {
+    height: 0.1em;
+    background-color: aqua;
+    margin: 0;
+}
 .footerAll {
     text-align: center;
     background-color: #112d4e;
     color: #f9f7f7;
-    padding: 0.5em;
-    margin: 0 auto;
 }
 
 /* About Me Page */
-
 .aboutMePic {
     width: 25%;
     border-radius: 50%;
@@ -37,7 +35,6 @@ hr {
 
 
 /* Media Queries */
-
 @media screen and (max-width: 400) {
 
     .aboutMe {
