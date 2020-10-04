@@ -3,34 +3,68 @@
 <html lang="en-us">
 
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christina's Home Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 
   <body>
         <header>
-            <nav>
-                 <h2>Christina Shiroma</h2>
-                 <ul>
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                 </ul>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <h2 class="navbar-brand pl-5">Christina Shiroma</h2>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarChristinasContent" aria-controls="navbarChristinasContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarChristinasContent">
+                    <!-- ml-auto aligns this section to the right -->
+                    <ul class="navbar-nav ml-auto">
+                      <!-- About Me is active -->
+                      <li class="nav-item active"><a class="nav-link" href="index.html">About Me</a></li>
+                      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
-        <main>
-            <h1>About Me</h1>
-            <img src="..." alt="Image here">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean enim nulla, finibus ac leo sed, maximus ultricies quam. Nulla sed sagittis tortor. Sed non magna blandit, elementum sem in, viverra velit. Nulla id elit et libero gravida suscipit. Praesent vel congue lacus. Sed scelerisque ante massa, non tempus dolor auctor non. Aliquam vitae commodo magna, in pretium tellus. Sed eget augue vel turpis placerat venenatis. Ut faucibus nunc sit amet ullamcorper posuere. Sed in sollicitudin ipsum. Vestibulum in purus ullamcorper, congue leo ac, pretium nunc. Nullam rutrum, tortor in posuere consectetur, est est tincidunt neque, a ornare risus est ac mauris. Duis a tempus urna, eu volutpat nisl. Maecenas lacus urna, ultricies viverra lacus ac, lobortis tincidunt magna. Morbi non diam ut nunc posuere eleifend sit amet eget erat. Integer fermentum dui justo, nec interdum est ornare eget.</p>
 
-            <p>Maecenas nunc neque, eleifend eu ex ac, sollicitudin elementum odio. Phasellus feugiat massa fringilla, scelerisque ipsum eu, accumsan odio. Sed ipsum nunc, pulvinar nec odio nec, fermentum dignissim elit. Phasellus nec massa ac augue facilisis tincidunt. Mauris eu scelerisque nunc, eget placerat dui. Proin facilisis purus quis enim malesuada, a scelerisque nibh vestibulum. Nulla et justo orci. Nunc sit amet dolor sit amet lorem lacinia congue vel et dui. In hac habitasse platea dictumst. Donec auctor sapien et lorem pulvinar posuere. Nullam posuere congue accumsan. Nam sit amet gravida turpis.</p>
+        <main class="container m-auto">
+            <div class="row p-4"></div>
+            <div class="row">
+                <div class="col-lg-8 col-md-9 col-sm-12 aboutMe">
+                    <div class="row">
+                        <div class="col m-3">
+                            <h1>About Me</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="m-3 aboutMePic" src="assets/images/me-2.jpg" alt="Image here">
+                            <p class="m-3">My name is Christina, and I'm a student currently enrolled in a Web Developer Bootcamp through the University of California, San Diego Extension.  My background includes receiving an Associates degree in Music from Cosumnes River College in Sacramento, California, as well as receiving a Bachelor's degree in Biology from the University of California, San Diego.  Currently, I am working as a front-end technology representative for a large finance company.  I have been interested in coding for a long time (almost 10 years now), and have finally decided to dive into it.  I hope that I will be able to continue learning so that I may make the career change into this field, and am excited for this first step into a career change.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <p class="m-3">Please enjoy looking through some of my projects that I have already completed by navigating over to my Portfolio page!  Please also use my Contact Page to reach out to me!</p>        
+                        </div>
+                    </div>
+                </div>
+                <!-- Confirm right side stays empty -->
+                <div class="col-lg-4 col-md-3"></div>
+            </div>
         </main>
 
-        <footer>
-            <p>Copyright</p>
+        <!-- footer -->
+        <hr class="mt-5">
+        <footer class="footerAll">
+            <p class="m-0">&copy; Copyright</p>
         </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 
 </html>

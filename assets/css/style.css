@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/background.jpg);
+}
+
+hr {
+    height: 0.1em;
+    background-color: aqua;
+    margin: 0;
+}
+
+.footerAll {
+    text-align: center;
+    background-color: #112d4e;
+    color: #f9f7f7;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+
+/* About Me Page */
+.aboutMe {
+    background-color: #f9f7f7;
+}
+
+.aboutMe h1 {
+    color: #112d4e;
+}
+
+.aboutMePic {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 400) {
+
+    .aboutMe {
+        width: 100%;
+    }
+
+}
