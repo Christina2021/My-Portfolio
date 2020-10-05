@@ -5,16 +5,15 @@ body {
     min-height: 100vh;
 }
 
-/* All containers */
+/* All containers for html */
 .contentBox {
     background-color: #f9f7f7;
 }
-
 .contentBox h1 {
     color: #112d4e;
 }
 
-/* All Footers */
+/* All Footers for html*/
 .footerAll {
     background-color: #112d4e;
     color: #f9f7f7;
@@ -25,13 +24,14 @@ body {
     background-color: aqua;
 }
 
+/* Specific Pages Below */
+
 /* About Me Page */
 .aboutMePic {
     width: 25%;
     border-radius: 50%;
     float: left;
 }
-
 /* Portfolio Page */
 .portfolioImage {
     height: 325px;
@@ -44,6 +44,10 @@ body {
 
     .contentBox {
         width: 100%;
+    }
+
+    h2 {
+        padding-left: .5em;
     }
 
 }
