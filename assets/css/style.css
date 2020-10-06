@@ -23,6 +23,10 @@ body {
     height: 0.1em;
     background-color: aqua;
 }
+footer span {
+    display: block;
+    width: 20%;
+}
 
 /* Specific Pages Below */
 
@@ -34,8 +38,8 @@ body {
 }
 /* Portfolio Page */
 .portfolioImage {
-    height: 325px;
-    width: 325px;
+    height: 300px;
+    width: 300px;
 }
 
 
