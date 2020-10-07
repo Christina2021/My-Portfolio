@@ -5,9 +5,15 @@ body {
     min-height: 100vh;
 }
 
+/* All navbars */
+.navbar-brand {
+    padding-left: 3.5em;
+}
+
 /* All containers for html */
 .contentBox {
     background-color: #f9f7f7;
+    border-radius: 2%;
 }
 .contentBox h1 {
     color: #112d4e;
@@ -25,7 +31,10 @@ body {
 }
 footer span {
     display: block;
-    width: 20%;
+    text-align: center;
+}
+.linkedIn {
+    color: #f9f7f7;
 }
 
 /* Specific Pages Below */
@@ -37,21 +46,23 @@ footer span {
     float: left;
 }
 /* Portfolio Page */
-.portfolioImage {
+.portfolioImage, .portfolioImageMCS {
     height: 300px;
     width: 300px;
+}
+.portfolioImageMCS {
+    opacity: 0.7;
+}
+.portfolioImage:hover {
+    opacity: 0.7;
 }
 
 
 /* Media Queries */
-@media screen and (max-width: 400) {
+@media (max-width: 400px) {
 
-    .contentBox {
-        width: 100%;
-    }
-
-    h2 {
-        padding-left: .5em;
+    .navbar-brand {
+        padding-left: 0.5em;
     }
 
 }
