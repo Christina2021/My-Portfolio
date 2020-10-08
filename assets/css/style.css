@@ -8,6 +8,20 @@ body {
 /* All navbars */
 .navbar-brand {
     padding-left: 3.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.nav-item {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* All text content (h1 and p tags) for html */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: "Fira Sans", sans-serif; 
 }
 
 /* All containers for html */
@@ -18,6 +32,7 @@ body {
 .contentBox h1 {
     color: #112d4e;
 }
+
 
 /* All Footers for html*/
 .footerAll {
@@ -32,6 +47,7 @@ body {
 footer span {
     display: block;
     text-align: center;
+    font-family: "Fira Sans", sans-serif;
 }
 .linkedIn {
     color: #f9f7f7;
