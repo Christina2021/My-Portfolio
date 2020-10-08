@@ -23,3 +23,6 @@ There will be 3 separate pages that you will find on my site (they will be acces
 There will also be a LinkedIn icon in my footer that will take you to my LinkedIn profile when clicked (let's connect!). ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white) 
 
 Please click [here](https://christina2021.github.io/My-Portfolio/) to check out my site! 
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/#)
