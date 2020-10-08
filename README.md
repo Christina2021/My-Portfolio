@@ -26,7 +26,7 @@ Please click [here](https://christina2021.github.io/My-Portfolio/) to check out 
 
 ## Credits
 
-A special thank you to these wonderful people for all of the help, support, and inspiration!
+A big thank you to these wonderful people for all of the help, support, and inspiration!
 
 [Dillon](https://github.com/dillonhoban) [Emily](https://github.com/ethomas22) [Brian](https://github.com/btparker70) [Ravi](https://github.com/ravifindravicom)
 
