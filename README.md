@@ -24,5 +24,11 @@ There will also be a LinkedIn icon in my footer that will take you to my LinkedI
 
 Please click [here](https://christina2021.github.io/My-Portfolio/) to check out my site! 
 
+## Credits
+
+A special thank you to these wonderful people for all of the help, support, and inspiration!
+
+[Dillon](https://github.com/dillonhoban) [Emily](https://github.com/ethomas22) [Brian](https://github.com/btparker70) [Ravi](https://github.com/ravifindravicom)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/#)
