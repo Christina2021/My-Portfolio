@@ -24,7 +24,7 @@ There will also be a LinkedIn icon in my footer that will take you to my LinkedI
 
 Please click [here](https://christina2021.github.io/My-Portfolio/) to check out my site! 
 
-## Credits
+## Acknowledgements
 
 A big thank you to these wonderful people for all of the help, support, and inspiration!
 
