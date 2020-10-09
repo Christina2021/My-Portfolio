@@ -1,3 +1,4 @@
+/* Background image to body; flexbox for sticky footer */
 body {
     background-image: url(../images/background.jpg);
     display: flex;
@@ -53,6 +54,7 @@ footer span {
     color: #f9f7f7;
 }
 
+
 /* Specific Pages Below */
 
 /* About Me Page */
@@ -80,6 +82,9 @@ footer span {
     .navbar-brand {
         padding-left: 1em;
     }
+    .contentBox {
+        border-radius: 4%;
+    }
 
 }
 
@@ -87,6 +92,26 @@ footer span {
 
     .navbar-brand {
         padding-left: 0.5em;
+    }
+    /* Box being slightly rounded did not look good here*/
+    .contentBox {
+        border-radius: 0;
+    }
+
+ /* Below makes sure that the content can expand the whole screen at 400px */
+
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footerSpace {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px; 
     }
 
 }
