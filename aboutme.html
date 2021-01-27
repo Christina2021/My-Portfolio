@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina's About Me</title>
+    <!-- BootStrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- My stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f21b4b2424.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+  </head>
+
+  <body>
+        <header>
+            <!-- Navbar with bootstrap classes-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <!-- My name -->
+                <h2 class="navbar-brand mb-0"><a href="index.html">Christina Shiroma</a></h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarChristinasContent" aria-controls="navbarChristinasContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarChristinasContent">
+                    <!-- ml-auto aligns this section to the right -->
+                    <ul class="navbar-nav ml-auto">
+                      <!-- About Me is active -->
+                      <li class="nav-item active"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- my-auto needed here for sticky footer -->
+        <main class="container my-auto">
+            <!-- About Me content in first column; column is responsive -->
+            <div class="col-lg-8 col-md-9 col-sm-12 mt-5 contentBox">
+                <!-- First row: Header -->
+                <div class="row">
+                    <div class="col m-3">
+                        <h1>About Me</h1>
+                        <hr>
+                    </div>
+                </div>
+                <!-- Second row: Image and about me content -->
+                <div class="row">
+                    <div class="col">
+                        <img class="m-3 aboutMePic" src="assets/images/me-2.jpg" alt="Christina pose">
+                        <p class="m-3">My name is Christina, and I'm a student currently enrolled in a Web Developer Bootcamp through the University of California, San Diego Extension.  My background includes receiving an Associates degree in Music from Cosumnes River College in Sacramento, California, as well as receiving a Bachelor's degree in Biology from the University of California, San Diego.  I previously had worked as a front-end technology representative for a large finance company.  After having a strong interest in coding for many years, I have finally decided to dive into it.  I hope that I will be able to continue learning so that I may make the career change into this field, and am excited for this first step into a career change.</p>
+                    </div>
+                </div>
+                <!-- Third row: Explore my site -->
+                <div class="row mb-3">
+                    <div class="col">
+                        <p class="m-3">Please use the navigation bar at the top to enjoy looking through some of my projects that I have already completed by navigating over to my Portfolio page!  Please also use my Contact Page to reach out to me!</p>        
+                    </div>
+                </div>
+            </div>
+            <!-- Leftover column -->
+            <!-- <div class="col-lg-4 col-md-3"></div> -->
+        </main>
+
+        <!-- footer -->
+        <footer class="mt-5 footerAll">
+            <div class="footerRow"></div>
+            <div class="container py-3">
+                <div class="row footerSpace">
+                    <div class="col">
+                        <!-- Copyright and linkedin link-->
+                        <span class="mx-auto">&copy; Copyright 2020 &nbsp;&nbsp; <a class="footer-icon" href="https://www.linkedin.com/in/christina2021/" target="_blank"><i class="fab fa-linkedin"></i></a><a class="ml-1 footer-icon" href="https://github.com/Christina2021"><i class="fab fa-github-square"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+     <!-- Bootstrap JS-->
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+     crossorigin="anonymous"
+   ></script>
+  </body>
+
+</html>

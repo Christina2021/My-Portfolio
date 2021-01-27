@@ -15,6 +15,9 @@ body {
 .nav-item {
     font-family: "Fira Sans", sans-serif;
 }
+/* .nav-item a {
+    color: #f9f7f7;
+} */
 
 /* All text content (h1 and p tags) for html */
 h1 {
@@ -56,6 +59,28 @@ footer span {
 
 
 /* Specific Pages Below */
+
+/* Front Page */
+.front-page-header {
+    color: #f9f7f7;
+}
+.front-page-header h1 {
+    font-size: 5rem;
+}
+#front-page-button {
+background: none;
+color: #b3b3b3;
+border: 2px solid;
+padding: 1em 2em;
+transition: all 0.3s;
+}
+#front-page-button:hover {
+border-color: aqua;
+color: #f9f7f7;
+box-shadow: 0 0.5em 0.5em -0.4em aqua;
+transform: translateY(-0.3em);
+cursor: pointer;
+}
 
 /* About Me Page */
 .aboutMePic {
