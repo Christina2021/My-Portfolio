@@ -80,6 +80,35 @@ footer span {
 }
 .front-page-header h1 {
     font-size: 5rem;
+    position: relative;
+    animation-name: fph1move;
+    animation-duration: 2.5s;
+}
+@keyframes fph1move {
+    0% {bottom: 1000px; opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 0.4}
+    100% {bottom: 0px; opacity: 1}
+}
+.front-page-header h5 {
+    position: relative;
+    animation-name: fph5move;
+    animation-duration: 2.5s;
+}
+@keyframes fph5move {
+    0% {right: 600px; opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 0.4}
+    100% {right: 0px; opacity: 1}
+}
+#fpnavbar {
+    animation-name: fpnappear;
+    animation-duration: 4s; 
+}
+@keyframes fpnappear {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1}
 }
 #front-page-button {
 background: none;
@@ -87,6 +116,13 @@ color: #b3b3b3;
 border: 2px solid;
 padding: 1em 2em;
 transition: all 0.3s;
+animation-name: fpbappear;
+animation-duration: 4s;
+}
+@keyframes fpbappear {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1}
 }
 #front-page-button:hover {
 border-color: aqua;
