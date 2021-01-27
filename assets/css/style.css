@@ -102,13 +102,8 @@ footer span {
     100% {right: 0px; opacity: 1}
 }
 #fpnavbar {
-    animation-name: fpnappear;
+    animation-name: fpappear;
     animation-duration: 4s; 
-}
-@keyframes fpnappear {
-    0% {opacity: 0}
-    50% {opacity: 0}
-    100% {opacity: 1}
 }
 #front-page-button {
 background: none;
@@ -116,10 +111,10 @@ color: #b3b3b3;
 border: 2px solid;
 padding: 1em 2em;
 transition: all 0.3s;
-animation-name: fpbappear;
+animation-name: fpappear;
 animation-duration: 4s;
 }
-@keyframes fpbappear {
+@keyframes fpappear {
     0% {opacity: 0}
     50% {opacity: 0}
     100% {opacity: 1}
