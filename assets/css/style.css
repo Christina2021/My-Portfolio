@@ -7,6 +7,13 @@ body {
 }
 
 /* All navbars */
+h2 a {
+    color: #f9f7f7;
+    transition: all 0.3s;
+}
+h2 a:hover {
+    color: #b3b3b3;
+}
 .navbar-brand {
     padding-left: 3.5em;
     font-family: "Montserrat", sans-serif;
@@ -15,9 +22,12 @@ body {
 .nav-item {
     font-family: "Fira Sans", sans-serif;
 }
-/* .nav-item a {
-    color: #f9f7f7;
-} */
+#navbarChristinasContent {
+    padding-right: 3.5em;
+}
+#navbarChristinasContent ul {
+    padding-left: 5em;
+}
 
 /* All text content (h1 and p tags) for html */
 h1 {
@@ -55,6 +65,10 @@ footer span {
 }
 .footer-icon {
     color: #f9f7f7;
+    transition: all 0.3s;
+}
+.footer-icon:hover {
+    color: #b3b3b3;
 }
 
 
@@ -84,10 +98,11 @@ cursor: pointer;
 
 /* About Me Page */
 .aboutMePic {
-    width: 25%;
+    width: 200px;
     border-radius: 50%;
     float: left;
 }
+
 /* Portfolio Page */
 .carousel-item img {
     width: 100%;
