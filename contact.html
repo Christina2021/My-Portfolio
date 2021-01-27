@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Christina</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- My stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">    
@@ -21,17 +27,18 @@
         <header>
             <!-- Navbar with bootstrap classes-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <h2 class="navbar-brand mb-0">Christina Shiroma</h2>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarChristinasContent" aria-controls="navbarChristinasContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- My name -->
+                <h2 class="navbar-brand mb-0"><a href="index.html" class="text-decoration-none">Christina Shiroma</a></h2>
+                <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarChristinasContent" aria-controls="navbarChristinasContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarChristinasContent">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarChristinasContent">
                     <!-- ml-auto aligns this section to the right -->
                     <ul class="navbar-nav ml-auto">
-                    <!-- About Me is active -->
-                    <li class="nav-item"><a class="nav-link" href="index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                      <!-- About Me is active -->
+                      <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -67,7 +74,7 @@
                 <div class="row">
                     <div class="col mt-0 mx-3 mb-3">
                         <!-- Form with name, email, message boxes-->
-                        <form>
+                        <form action="mailto:codechristina2021@gmail.com" method="GET">
                             <div class="form-group">
                                 <label for="contactName">Name:</label>
                                 <input class="form-control" type="text" id="contactName" placeholder="First and Last Name" required>
@@ -78,15 +85,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="contactMessage">Message:</label>
-                                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message" required></textarea>
+                                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message" name="body" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-dark">Submit</button>
+                            <button type="submit" class="btn btn-dark mt-3">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <!-- Leftover column -->
-            <!-- <div class="col-lg-4 col-md-3"></div> -->
         </main>
 
         <!-- footer -->
@@ -96,16 +101,18 @@
                 <div class="row footerSpace">
                     <div class="col">
                         <!-- Copyright and linkedin link-->
-                        <span class="mx-auto">&copy; Copyright 2020 &nbsp;&nbsp; <a class="footer-icon" href="https://www.linkedin.com/in/christina2021/" target="_blank"><i class="fab fa-linkedin"></i></a><a class="ml-1 footer-icon" href="https://github.com/Christina2021"><i class="fab fa-github-square"></i></a></span>
+                        <span class="mx-auto">&copy; Copyright 2021 &nbsp;&nbsp; <a class="footer-icon me-2" href="https://www.linkedin.com/in/christina2021/" target="_blank"><i class="fab fa-linkedin"></i></a><a class="ml-1 footer-icon" href="https://github.com/Christina2021"><i class="fab fa-github-square"></i></a></span>
                     </div>
                 </div>
             </div>
         </footer>
     
      <!-- Bootstrap JS-->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+     crossorigin="anonymous"
+   ></script>
   </body>
 
 </html>
